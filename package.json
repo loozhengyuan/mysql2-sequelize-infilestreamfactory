@@ -6,7 +6,7 @@
         "start": "node ./index.js"
     },
     "dependencies": {
-        "mysql2": "^3.5.2",
+        "mysql2": "github:loozhengyuan/node-mysql2#feat/connection-level-infilestreamfactory",
         "sequelize": "^6.32.1"
     }
 }
