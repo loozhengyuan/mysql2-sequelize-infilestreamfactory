@@ -1,0 +1,12 @@
+{
+    "name": "node-mysql2-infilestreamfactory-repro",
+    "scripts": {
+        "build": "tsc --build --force",
+        "build:watch": "tsc --watch",
+        "start": "node ./index.js"
+    },
+    "dependencies": {
+        "mysql2": "^3.5.2",
+        "sequelize": "^6.32.1"
+    }
+}
